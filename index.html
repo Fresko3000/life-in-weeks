@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tua Vita in Settimane</title>
+    
+    <!-- FAVICON CON EMOJI INTEGRATA DIRETTAMENTE NELL'HTML -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏳</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>La Tua Vita in Settimane</h1>
+        <p id="main-subtitle" class="subtitle">Un promemoria visivo della finitezza del tempo. Ispirato da "4000 Weeks" di Oliver Burkeman.</p>
+        <p id="grid-quote" class="quote hidden"></p>
+    </header>
+
+    <main>
+        <!-- Vista per l'inserimento dei dati -->
+        <section id="input-view" class="view">
+            <div class="input-container">
+                <h2>Inizia da qui</h2>
+                <form id="data-form">
+                    <div class="form-group">
+                        <label for="name-input">Il tuo nome (opzionale)</label>
+                        <input type="text" id="name-input" placeholder="Es. Marco">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob-input">La tua data di nascita</label>
+                        <input type="date" id="dob-input" required>
+                    </div>
+                    <button type="submit">Genera la mia Griglia</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Vista della Griglia delle Settimane -->
+        <section id="grid-view" class="view hidden">
+            <h2 id="grid-title"></h2>
+            <button id="reset-button">Ricomincia</button>
+            <div id="tooltip" class="hidden"></div>
+            
+            <div id="grid-wrapper">
+                <div class="axis-label-vertical"><span>ANNI ⬅️</span></div>
+                <div class="axis-label-horizontal"><span>SETTIMANA DELL'ANNO ➡️</span></div>
+                <div id="weeks-grid-container"></div>
+            </div>
+
+            <p class="grid-summary">
+                Hai vissuto <strong id="weeks-lived">0</strong> settimane su un totale di 4680 (90 anni).
+                Falle contare.
+            </p>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
