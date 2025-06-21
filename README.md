@@ -12,4 +12,4 @@ Non è uno strumento per generare ansia, ma un invito alla **prospettiva**. È u
 Ispirata al libro "Four Thousand Weeks" di Oliver Burkeman, questa app è qui per ricordarti una cosa sola: **rendi ogni settimana memorabile**. ❤️
 
 
-[link]➡️https://fresko3000.github.io/life-in-weeks/
+**[link]➡️(https://fresko3000.github.io/life-in-weeks/)**
