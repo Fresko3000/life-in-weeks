@@ -10,3 +10,6 @@ Inserisci la tua data di nascita e osserva l'intera mappa della tua vita: ogni q
 Non è uno strumento per generare ansia, ma un invito alla **prospettiva**. È un *memento mori* digitale che ti spinge a chiederti: "Sto usando il mio tempo per ciò che conta davvero?" ✨
 
 Ispirata al libro "Four Thousand Weeks" di Oliver Burkeman, questa app è qui per ricordarti una cosa sola: **rendi ogni settimana memorabile**. ❤️
+
+
+https://fresko3000.github.io/life-in-weeks/
